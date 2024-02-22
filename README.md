@@ -46,4 +46,4 @@ Input: [0, 1, ...]`
 Prompt used: `Create a list of unabmgious rule that can be followed to convert a digit between 0 to 99999 to its french equivalent consdiering all the edge cases`
 4. Get french transalaton of random number:
 Prompt Used: `What is the {100} in french`
-
+5. Generate JS DOC documentation
