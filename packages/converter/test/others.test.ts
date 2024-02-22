@@ -121,8 +121,6 @@ describe("70 to 80 numbers and 90 to 100 numbers do not use the same pattern as 
   })
 
   describe("some numbers ending with 1 are joined with dashes, others with dashes and 'et'", () => {
-    //traditional french use "vingt et un" with spaces, but since 1990 reform the rule is "vingt-et-un" with dashes.
-    //and it is easier to do!
     it('translate 21 to vingt-et-un', () => {expect(convert(21)).toEqual('vingt-et-un')
     })
     it('translate 31 to trente-et-un', () => {expect(convert(31)).toEqual('trente-et-un')
