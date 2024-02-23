@@ -5,12 +5,12 @@ This is an nodejs npm package that converts digits from 0 to 999999 to the Frenc
 The repo is setup as workspace containing two packages in the [packages](https://github.com/tosinamuda/kata/tree/main/packages) directory,  the main package called kata is in the [converter](https://github.com/tosinamuda/kata/tree/main/packages/converter) and an example package that shows how to use kata in [example](https://github.com/tosinamuda/kata/tree/main/packages/examples).
 
 The kata package contains a source folder (src) with 6  files:
-1. kata.ts: this is the entrypoint to the application containing the `convert` and `convertList` function which are the major apis of the package
-2. index.ts: exports all the public types, functions and class for the library to make the package importable in other packages
-3. main.ts: expose the package as a CLI app
-4. NumberConverter.ts: contains all the logic for converting a number
-5. FrenchNumeral.ts: contains constant for the French numbers
-6. TestData.ts: contains the input data for the task and also a mapping of the input data to the french word equivalent
+1. `kata.ts`: this is the entrypoint to the application containing the `convert` and `convertList` function which are the major apis of the package
+2. `index.ts`: exports all the public types, functions and class for the library to make the package importable in other packages
+3. `main.ts`: expose the package as a CLI app
+4. `NumberConverter.ts`: contains all the logic for converting a number
+5. `FrenchNumeral.ts`: contains constant for the French numbers
+6. `TestData.ts`: contains the input data for the task and also a mapping of the input data to the french word equivalent
 
 ## Requirement
 1. Node version >= 18
