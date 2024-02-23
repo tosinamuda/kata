@@ -1,4 +1,4 @@
-# Kata French to English Package
+# Kata Number to French Converter Package
 This is an nodejs npm package that converts digits from 0 to 999999 to the French word equivalent. This package is written in ptypescript and you can use it by either adding it to a npm/pnpm/yarn workspace as a package or run it as a cli. 
 
 ## Library Structure
